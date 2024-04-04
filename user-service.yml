@@ -2,7 +2,7 @@ datasource:
   driver-class-name: org.h2.Driver
   url : jdbc:h2:mem:testdb
   username: sa
-  password: 
+  password: '{cipher}183b0baf30fcb0c696f09abf80cc1360e1512fc492393863fba9fe7a3dd779e3'
 token : 
   expiration_time : 864000000
   secret : user_token_secret
